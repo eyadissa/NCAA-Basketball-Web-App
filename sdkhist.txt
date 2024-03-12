@@ -1,0 +1,632 @@
+ls
+docker
+sudo apt-get update
+sudo snap install docker
+ls
+mkdir rtest
+cp Dockerfile ./rtest/Dockerfile
+cp update_data.R ./rtest/update_data.R 
+cd rtest/
+ls
+cd ..
+docker build -t rtest
+docker build -t rtest .
+sudo docker build -t rtest .
+ls
+cd rtest/
+ls
+vi update_data.R 
+docker run rtest
+sudo docker run rtest
+ls
+cd..
+cd ..
+ls
+cd rtest/
+ls
+mk dir /home/r-env
+mkdir /home/r-env
+sudo mkdir /home/r-env
+ls
+cd..
+cd ..
+ls
+cd /home/r-env/
+cd ..
+cd .
+cd .~/
+cd ..
+ls
+cd home/
+ls
+cd eyadhajissa/
+cp update_data.R /home/r-env/update_data.R
+sudo cp update_data.R /home/r-env/update_data.R
+docker run r-env
+ls
+sudo docker run rtest
+ls
+cd rtest/
+ls
+cd ..
+vi Dockerfile 
+cd  /home
+cd r-env/
+ls
+vi update_data.R 
+sudo vi update_data.R 
+cd /home/eyadhajissa/
+ls
+docker run rtest
+sudo docker run rtest
+dsa
+sudo docker run rtest
+cd /home/
+ls
+sudo rm -r r-env/
+ls
+cd /home/ey
+cd /home/eyadhajissa/
+ls
+sudo docker run rtest
+cd rtest/
+ls
+vi update_data.R 
+cd /home/
+ls
+cd /home/eyadhajissa/
+ls
+cd rm rtest/
+rm -r rtest/
+vi Dockerfile 
+mkdir rtest
+cd rtest/
+ls
+cd
+cp Dockerfile rtest/Dockerfile
+cp update_data.R rtest/update_data.R
+sudo docker build -t rtest .
+ls
+vi Dockerfile 
+ls
+cd rtest/
+ls
+R
+Rscript
+cd ..
+ls
+cd rtest/
+vi Dockerfile 
+ls
+cd r-env
+sudo cd r-env
+cd ..
+cd r-env
+sudo cd r-env
+cd rtest/
+ls
+vi Dockerfile 
+run docker rtest
+docker run rtest
+sudo docker run rtest
+cd ..
+ls
+cd rm rtest/
+rm rtest/
+rm -r rtest/
+vi Dockerfile 
+vi update_data.R 
+mkdir rtest
+cp Dockerfile rtest/Dockerfile
+cp update_data.R rtest/update_data.R
+sudo docker build -t rtest .
+sudo docker run rtest
+ls
+cd rtest/
+ls
+realpath update_data.R 
+ls
+vi Dockerfile 
+cd ..
+sudo docker run rtest
+sudo docker build -t rtest
+sudo docker build -t rtest .
+sudo docker rn rtest
+sudo docker run rtest
+mkdir test
+vi Dockerfile 
+ls
+cp rtest/Dockerfile test/Dockerfile
+cp rtest/update_data.R test/update_data.R
+cd test/
+vi Dockerfile 
+cd .
+cd ..
+sudo docker build -t test
+sudo docker build -t test .
+sudo docker run test
+cd test/
+ls
+sudo docker build test .
+sudo docker build -t test .
+ls
+sudo docker run test
+cd ..
+cd test
+vi Dockerfile 
+cd ..
+mkdir test2
+cp test/Dockerfile test2/Dockerfile
+cp test/update_data.R test2/update_data.R
+cd test2
+sudo docker build -t test2 .
+sudo docker run test2
+cd docker.io/library/test2
+cd /hoe
+cd /home
+ls
+cd ubuntu/
+ls
+cd /home/eyadhajissa/
+ls
+cd snap/
+ls
+cd docker/
+ls
+cd current
+ls
+cd /home/eyadhajissa/
+ls
+sudo run docker test2
+sudo docker run  test2
+mkdir test3
+cp test2/Dockerfile test3/Dockerfile
+cp test2/update_data.R test3/update_data.R
+cd test3/
+ls
+vi Dockerfile 
+docker build -t test3 .
+sudo docker build -t test3 .
+sudo run docker test3
+mkdir t3
+cd ..
+mkdir t3
+cp test3/Dockerfile t3/Dockerfile
+cp test3/update_data.R t3/update_data.R
+cd t3
+vi Dockerfile 
+docker build -t t3 .
+sudo docker build -t t3 .
+sudo docker run t3
+realpath
+realpath update_data.R 
+cd t3
+ls
+vi Dockerfile 
+cp -r ~/t3/ ~/t4
+sudo docker build -t t4 .
+cd ..
+sudo docker run t3
+ls
+sudo docker run t4
+r
+sudo docker run t4
+R
+echo 'test'
+cd t4/
+vi Dockerfile 
+cp -r t4 t5
+cd ..
+cp -r t4 t5
+docker run t5
+sudo docker run t5
+cd t5
+vi Dockerfile 
+vi Dockerfile 
+ls
+echo 'test'
+cd ..
+docker build -t myimage -f ~/t5/Dockerfile
+docker build -t myimage -f ~/t5/Dockerfile .
+sudo docker build -t myimage -f ~/t5/Dockerfile .
+sudo docker run myimage
+docker build -t m4 -f ~/t4/Dockerfile .
+sudo docker build -t m4 -f ~/t4/Dockerfile .
+sudo docker run m4
+sudo docker build -t m3 -f ~/t3/Dockerfile .
+sudo docker run m3
+vi update_data.R 
+VOLUME_USAGE=$(df -h $MOUNTED_FILESYSTEM | awk '{print $5}')
+echo $VOLUME_USAGE 
+echo (mount | awk '{print $3}')
+echo $(mount | awk '{print $3}')
+df.
+df -h
+ls
+cd t4
+ls
+cd t3
+cd ~/t3
+ls
+cd ..
+cd /var/lib/docker
+cd ~/var/lib/docker
+cd /home/var/lib/docker
+cd /
+ls
+cd /var/lib/
+ls
+cd /
+ls
+docker rm -f $(docker ps -qa)
+sudo docker rm -f $(docker ps -qa)
+cd /home/eyadhajissa/
+ls
+sudo docker image prune -a
+sudo docker rm $(docker ps -qa)
+echo $(docker ps -qa)
+echo $(sudo docker ps -qa)
+sudo docker rm $(sudo docker ps -qa)
+history
+ls
+sudo docker run m3
+vi ~/t3
+vi ~/t3/Dockerfile 
+sudo docker build -t m3 -f ~/t3/Dockerfile .
+sudo docker run m3
+ls
+df -h
+cd /dev/loop5
+cd /home/dev/loop5
+cd snap/
+ls
+cd docker
+ls
+cd current
+ls
+cd ../2915/
+ls
+cd ../common/
+ls
+cd /~
+cd ~/
+docker run -it m3 /bin/bash
+sudo docker run -it m3 /bin/bash
+ls
+cd t3
+ls
+vi Dockerfile 
+cd ..
+cd t3
+rm update_data.R 
+cd ..
+ls
+vi update_data.R 
+history 
+sudo docker rm $(sudo docker ps -qa)
+vi update_data.R 
+sudo docker build -t m3 -f ~/t3/Dockerfile
+sudo docker build -t m3 -f ~/t3/Dockerfile .
+sudo docker run m3
+ls
+sudo docker run -it  m3
+sudo docker run -it m3 /bin/bash
+docker cp m3:/home/r-env/*.csv
+docker cp m3:/home/r-env/*.csv .
+sudo docker cp m3:/home/r-env/*.csv .
+sudo docker exec m3 ls
+vi predict.sh
+chmod +x /home/eyadhajissa/predict.sh
+./predict.sh 
+bq.py help
+bq help
+bq query help
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi predict.sh 
+./predict.sh 
+vi get_input.sh
+vi predict.sh 
+vi get_input.sh
+vi predict.sh 
+vi get_input.sh
+vi predict.sh 
+vi get_input.sh
+history
+chmod +x /home/eyadhajissa/get_input.sh 
+./get_input.sh 
+vi get_input.sh
+./get_input.sh 
+cp get_input.sh Wget_input.sh 
+vi get_input.sh 
+date_in='2024-01-10'
+team_in='Wildcats'
+./get_input.sh 
+vi get_input.sh 
+./get_input.sh 
+./get_input.sh -date_in '2024-01-10'
+vi get_input.sh 
+./get_input.sh -date_in '2024-01-10'
+vi get_input.sh 
+./get_input.sh -date_in '2024-01-10'
+:wq
+vi get_input.sh 
+./get_input.sh -date_in '2024-01-10'
+vi get_input.sh 
+./get_input.sh -date_in '2024-01-10'
+vi get_input.sh 
+./get_input.sh -date_in '2024-01-10'
+./get_input.sh 
+vi get_input.sh 
+history
+chmod +x /home/eyadhajissa/Wget_input.sh
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh -date_input '2024-01-10' -team_input 'Wildcats'
+vi Wget_input.sh 
+date_input='2024-01-10' && team_input='Wildcats'
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+echo $date_input
+vi Wget_input.sh 
+export date_input='2024-01-10' && team_input='Wildcats'
+export date_input='2024-01-10' && export team_input='Wildcats'
+./Wget_input.sh 
+echo $date_input
+echo $(date_input)
+vi Wget_input.sh 
+echo date_input
+echo $date_input
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+echo $date_input
+echo $team_input
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+echo date_input
+echo $date_input
+export $(date_input) '2024-01-10'
+vi Wget_input.sh 
+export $(date_input) '2024-01-10'
+./Wget_input.sh 
+$date_input 
+$date_input = '2024-01-10'
+date_input = '2024-01-10'
+date_in = '2024-01-10'
+$date_in = '2024-01-10'
+echo date_in
+echo $date_in
+date_in = '2024-01-10'
+date_in='2024-01-10'
+echo date_in
+echo $date_in
+echo $name_input
+echo $team_in
+date_input='2024-01-10'
+echo date_input
+echo $date_input
+name_input='Wildcats'
+echo name_input
+echo $name_input
+echo ${name_input}
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+./Wget_input.sh 
+vi Wget_input.sh 
+ls
+vi predict.sh 
+history
+vi
+ls
+vi update_data.R 
+docker run m3
+sudo docker run m3
+ls
+rm -r (t4,r5)
+rm -r [t4,r5]
+rm -r t4,t5
+rm -r t4
+rm -r t5
+rm -r test*
+ls
+rm rtest/
+rm -r rtest/
+sudo apt-get install golang-go
+go mod init github.com/HelloWorld/goProductAPI
+ls
+vi go.mod
+go mod tidy
+mkdir RestMicro
+cd RestMicro/
+go mod init github.com/HelloWorld/goProductAPI
+go mid tidy
+go mod tidy
+ls
+sudo apt install golang-github-gorilla-mux-dev
+mkdir data
+cd data/
+vi data.json
+cd ..
+vi main.go
+cd ...
+cd ..
+ls
+vi get_input.sh 
+vi Wget_input.sh 
+cp Wget_input.sh get_input.sh 
+vi get_input.sh 
+./get_input.sh 
+ls
+cp get_input.sh set_input.sh
+v set_input.sh 
+vi set_input.sh 
+vi main.go
+sudo apt install golang-github-gorilla-mux-dev
+go mod init   gorilla/mux
+cat go.mod
+go run main.go 
+vi main.go 
+cat main.go
+vi main.go 
+cp main.go main.go.back
+rm main.go
+vi main.go
+go run main.go
+rm main.go
+vi main.go
+go run main.go
+rm main.go
+vi main.go
+go main.go
+go run main.go
+vi main.go
+go run main.go
+vi main
+vi main.go
+ls
+rm main.go
+vi main.go
+go run main.go
+cat main.go
+go run main.go
+rm main.go
+vi main.go.back 
+vi main.go
+rm main.go.sh
+vi main.go
+rm main.go.swap
+rm main.go.swp
+vi main.go
+sudo rm 
+sudo rm .main.go.swp
+vi main.go
+go run main.go
+vi main.go
+go run main.go
+vi main.go
+go run main.go
+vi main.go
+go run main.go
+cat /etc/resolv.conf
+vi main.go
+cat main.go
+go run main.go
+ls
+sudo git clone https://github.com/GoogleCloudPlatform/python-doc-samples
+sudo git clone http://github.com/GoogleCloudPlatform/python-doc-samples
+sudo git clone http://github.com/GoogleCloudPlatform/python-docs-samples
+ls
+cd python-docs-samples/
+ls
+cd appengine/
+ls
+cd standard
+cd ..
+cd standard_python3/
+ls
+cd hell
+cd hello_world/
+ls
+vi app.yaml 
+ls
+vi app.yaml 
+cp app.yaml ~/
+vi requirements-test.txt 
+gcloud app deploy app.yaml 
+cd ..
+cd hello_world/
+ls
+vi requirements.txt 
+vi main.py
+vi ~/main.go
+cd ~/
+ls
+mkdir test
+cp get_input.sh test
+cp predict.sh test
+cp app.yaml test
+cd test/
+vi app.yaml 
+vi go.mod
+gcloud app deploy app.yaml
+gcloud components list
+go get google.golang.org/appenginer
+go get google.golang.org/appengine
+gcloud app deploy app.yaml
+gcloud components install app-engine-go
+sudo apt-get google-cloud-sdk
+sudo apt-get install google-cloud-sdk
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-467.0.0-linux-x86_64.tar.gz
+tar -xf google-cloud-cli-467.0.0-linux-x86_64.tar.gz
+./google-cloud-sdk/install.sh
+ls
+rm -r google-cloud-cli-467.0.0-linux-x86_64.tar.gz 
+cd google-cloud-sdk/
+ls
+cd ..
+mkdir myapp
+cp test myapp
+cp -r test myapp
+cd myapp/
+ls
+cd test/
+ls
+rm -r google-cloud-sdk/
+history -w sdkhist.txt
